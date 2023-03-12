@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1170px !important;
+}
+.header-main {
+  background: #002e5b;
+  padding-top: 8px;
+  color: #fff;
+}
+.sultivo {
+  border-bottom: 2px solid #f7f7f7;
+}
+.header-icon i {
+  padding-left: 10px;
+}
+.sultivo p {
+  padding-left: 40px;
+  color: #e74d58;
+}
+.sultivo h6 {
+  margin-top: -10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sultivo-icon i {
+  font-size: 30px;
+  padding-right: 10px;
+  padding-top: 10px;
+  color: #e74d58;
+}
+.sultivo span {
+  color: #c0c0c0;
+}
+.sultivo h5 {
+  padding-left: 38px;
+  margin-top: -10px;
+  padding-bottom: 15px;
+  color: #002e5b;
+  font-size: 18px;
+}
+.nav-menu ul li a {
+  color: #c0c0c0 !important;
+}
+.nav-menu ul li a:hover {
+  color: #002e5b !important;
+}
+.man-icon li a {
+  padding-left: 35px;
+}
+.man-icon li a i {
+  color: #c0c0c0;
+}
+#banner {
+  background: url(../images/about-bg.jpg);
+}
+.banner-main {
+  color: #fff;
+  padding: 165px 0;
+}
+.banner-text p {
+  color: #00b086;
+}
+#about {
+  padding-top: 125px;
+}
+#about p{
+    color: #777777;
+}
+.about-img img {
+  width: 570px;
+  height: 660px;
+}
+.about-img-text {
+  color: #fff;
+  position: relative;
+  top: -90px;
+  left: 260px;
+}
+.about-text {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.about-text span {
+  color: #e74d58;
+}
+.about-text h2 {
+  color: #002e5b;
+  font-weight: 600;
+  font-size: 40px;
+  padding: 25px 0;
+}
+.about-text-two{
+    padding-top: 65px;
+}
+.about-text-two i{
+    color: #e74d58;
+    padding-right: 30px;
+}
+.about-text-two h6{
+    color: #002e5b;
+    font-size: 19px;
+    padding-bottom: 35px;
+}
+.about-text-two p{
+    padding-bottom: 50px;
+}
+ .btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #002e5b;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #002e5b;
+    --bs-btn-hover-border-color: #fff;
+  }
+  #choose{
+    background: #f6f6f6;
+    padding-top: 120px;
+  }
+  .choose-header span{
+    color: #e74d58;
+    text-transform: uppercase;
+  }
+  .choose-header h1{
+    color: #002e5b;
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  .choose-box{
+background: url(../images/aboutService-bg.png);
+  }
+  .choose-box h1{
+    padding: 50px 0 60px 50px;
+    color: #e74d58;
+  }
+  .choose-box h4{
+    padding-bottom: 30px;
+    padding-left: 50px;
+    color: #002e5b;
+  }
+  .choose-box p{
+   padding-left: 50px;
+   padding-bottom: 50px;
+   color: #777777;
+  }
+  .background-color {
+    margin-top: 120px;
+    height: 240px;
+    background: #f4f4f4;
+  }
+  .background-color img {
+    padding-top: 120px;
+   padding-left: 83px;
+  }
+  .background-color img:first-child {
+    padding-left: 0;
+  } 
+  #faq{
+    background: #f6f6f6;
+  }
+  .faq-main{
+    padding-top: 120px;
+    padding-bottom: 115px;
+  }
+  .faq-text{
+    padding-left: 50px;
+    padding-top: 30px;
+  }
+.faq-text span{
+  color: #e74d58;
+}
+.faq-text h1{
+  color: #002e5b;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.blog-box {
+	padding: 20px;
+	background: #e54209;
+	display: inline-block;
+	color: #fff;
+	position: relative;
+	top: 59px;
+	left: 266px;
+}
+.card-main {
+  padding-top: 100px;
+}
+.card-body .by {
+  color: #cccccc;
+}
+
+.concult {
+  color: #e54209;
+}
+footer{
+  margin-top: 125px;
+  background: #002e5b;
+  color: #fff;
+}
+.footer-header{
+  padding-top: 100px;
+}
+.footer-header .solution{
+  color: #00cb9b;
+  padding-left: 50px;
+  font-size: 10px;
+}
+.footer-header p{
+  letter-spacing: 2px;
+  padding-top: 30px;
+}
+.footer-header h6{
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.footer-header h4{
+  color: #e74d58;
+}
+.footer-header-two{
+  padding-top: 140px;
+}
+.footer-header-two h5{
+  padding-bottom: 40px;
+}
+.footer-header-two p{
+  letter-spacing: 2px;
+}
+.footer-header-two h6{
+  padding-top: 65px;
+}
+.press p{
+  padding-bottom: 20px;
+}
+.form-control {
+	width: 222px;
+}

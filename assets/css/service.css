@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 1170px !important;
+  }
+  .header-main {
+    background: #002e5b;
+    padding-top: 8px;
+    color: #fff;
+  }
+  .sultivo {
+    border-bottom: 2px solid #f7f7f7;
+  }
+  .header-icon i {
+    padding-left: 10px;
+  }
+  .sultivo p {
+    padding-left: 40px;
+    color: #e74d58;
+  }
+  .sultivo h6 {
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .sultivo-icon i {
+    font-size: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: #e74d58;
+  }
+  .sultivo span {
+    color: #c0c0c0;
+  }
+  .sultivo h5 {
+    padding-left: 38px;
+    margin-top: -10px;
+    padding-bottom: 15px;
+    color: #002e5b;
+    font-size: 18px;
+  }
+  .nav-menu ul li a {
+    color: #c0c0c0 !important;
+  }
+  .nav-menu ul li a:hover {
+    color: #002e5b !important;
+  }
+  .man-icon li a {
+    padding-left: 35px;
+  }
+  .man-icon li a i {
+    color: #c0c0c0;
+  }
+  #banner {
+    background: url(../images/about-bg.jpg);
+  }
+  .banner-main {
+    color: #fff;
+    padding: 165px 0;
+  }
+  .banner-text p {
+    color: #00b086;
+  }
+  #finance{
+    padding-top: 165px;
+  }
+  .finance-icon-text i{
+    font-size: 60px;
+    color: #e74d58;
+    padding-bottom: 35px;
+  }
+  .finance-icon-text h5{
+    color: #002e5b;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  .finance-icon-text p{
+    color: #c0c0c0;
+    letter-spacing: 2px;
+    padding-bottom: 35px;
+  }
+  #features{
+ margin-top: 185px;
+    background: #f8f8f8;
+  }
+  .feature-img{
+    position: relative;
+  }
+  .feature-img img {
+	position: absolute;
+	top: -50px;
+	left: -45px;
+}
+  .feature-text {
+    padding-top: 100px;
+  }
+  .feature-text span{
+    color: #e74d58;
+  }
+  .feature-text h2{
+    padding-top: 30px;
+    padding-bottom: 45px;
+    color: #002e5b;
+  }
+  .feature-text p{
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+  }
+  .founder{
+    padding-left: 70px;
+    position: relative;
+  }
+  .founder::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #c0c0c0;
+  }
+  .service-img{
+    padding-top: 140px;
+    cursor: pointer;
+  }
+  .service-img-overly{
+    position: relative;
+  }
+  .service-img-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+     text-align: center;
+     padding-top: 50%;
+     transition: 0.7s;
+     opacity: 0;
+  }
+  .service-img-text:hover{
+    opacity: 1;
+  }
+  .service-img-overly img {
+	width: 506px;
+	height: 480px;
+}
+#call{
+    background: #00cb9b;
+}
+.call-main{
+    padding: 100px 0;
+    color: #fff;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #002e5b;
+    --bs-btn-hover-border-color: #000;
+  }
+  .callToActions{
+    padding-top: 120px;
+  }
+  .callToAction-main span{
+    color: #e74d58;
+  }
+  .callToAction-main h1 {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color: #002e5b;
+  }
+  input {
+    padding: 0 240px;
+    margin: 20px 0;
+    background: #f7f7f7;
+  }
+  textarea {
+    background: #f7f7f7;
+    color: #787878;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .btn .btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #00b086;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #00b086;
+    --bs-btn-hover-border-color: #fff;
+  }
+  footer{
+    margin-top: 125px;
+    background: #002e5b;
+    color: #fff;
+  }
+  .footer-header{
+    padding-top: 100px;
+  }
+  .footer-header .solution{
+    color: #00cb9b;
+    padding-left: 50px;
+    font-size: 10px;
+  }
+  .footer-header p{
+    letter-spacing: 2px;
+    padding-top: 30px;
+  }
+  .footer-header h6{
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  .footer-header h4{
+    color: #e74d58;
+  }
+  .footer-header-two{
+    padding-top: 140px;
+  }
+  .footer-header-two h5{
+    padding-bottom: 40px;
+  }
+  .footer-header-two p{
+    letter-spacing: 2px;
+  }
+  .footer-header-two h6{
+    padding-top: 65px;
+  }
+  .press p{
+    padding-bottom: 20px;
+  }
+  .form-control {
+      width: 222px;
+  }
