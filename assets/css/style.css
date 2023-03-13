@@ -53,9 +53,15 @@ p {
   margin-top: -10px;
   font-weight: 800;
 }
-.navbar-nav .nav-link.active,
+/* .navbar-nav .nav-link.active,
 .navbar-nav .show > .nav-link {
   color: grey;
+} */
+.nav-menu ul li a{
+  color: #787878 !important;
+}
+.nav-menu ul li a:hover{
+  color: #e54209 !important;
 }
 
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -67,6 +73,7 @@ p {
 .man-icon li a i {
   color: gray;
 } 
+
 .banner-inner{
   background: url(../images/banner.jpg);
 }
@@ -176,6 +183,10 @@ p {
 }
 .background {
   z-index: 2;
+}
+.bg-logo{
+  display: flex;
+  flex-wrap: wrap;
 }
 .background-color img {
   padding-top: 200px;

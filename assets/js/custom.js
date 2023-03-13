@@ -6,3 +6,12 @@
 //     arrows:true,
 //     dots:true,
 // })
+$(".banner-slide").slick({
+
+    autoplay:true,
+    autoplaySpedd:100,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows:false,
+  
+  })
